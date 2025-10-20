@@ -1,6 +1,6 @@
 This code estimates score for each problem (multiple choice question) in the test based on test takers perfomance.
 
-It receives excel table (preferrebly from Google Form, or it need to be adjust to Google Form format). You should select as a type "Table" only answers without any variable name column/row. (In code the table is caled Kisekinomock, you can replace all of them). Then, there should be column of all only answers, 1 row table, import it (rename to RightAnswers). That's it. Run code.
+It receives excel table (preferrebly from Google Form, or it need to be adjust to Google Form format). You should select as a type "Table" only answers without any variable name column/row. (In code the table is caled Kisekinomock, you can replace it). Then, there should be row of all only answers, 1 row table, import it (rename to RightAnswers). That's it. Run code.
 After some time you will recieve, the strings:
 Total math = x
 Total crit = y
