@@ -2,12 +2,19 @@ This code estimates score for each problem (multiple choice question) in the tes
 
 It receives excel table (preferrebly from Google Form, or it need to be adjust to Google Form format). You should select as a type "Table" only answers without any variable name column/row. (In code the table is caled Kisekinomock, you can replace it). Then, there should be row of all only answers, 1 row table, import it (rename to RightAnswers). That's it. Run code.
 After some time you will recieve, the strings:
+
 Total math = x
+
 Total crit = y
+
 Total = x+y
+
 Min possible math total = m_1
+
 Max possible math total = m_2
+
 Min possible crit total = c_1
+
 Max possible crit total = c_2
 
 All these strings are indicate how "well" it assigned score to each task in order to sum up to 120 per section. If it does not sum up to 120, then it means that the program cannot round the score to the 120 (for example, it is rounding x.000001 to the x+1, and it is the limit for this rounding, but 120 cannot be achieved). In this case, you should manually change some score for the task.
